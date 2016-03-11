@@ -15,6 +15,7 @@
 		911A049B1C92EE3B00313B52 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 911A04991C92EE3B00313B52 /* LaunchScreen.storyboard */; };
 		911A04A61C92EE3C00313B52 /* weChatTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 911A04A51C92EE3C00313B52 /* weChatTests.m */; };
 		911A04B11C92EE3C00313B52 /* weChatUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 911A04B01C92EE3C00313B52 /* weChatUITests.m */; };
+		911A04C01C92EF6100313B52 /* DSTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 911A04BF1C92EF6100313B52 /* DSTableViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		911A04AC1C92EE3C00313B52 /* weChatUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = weChatUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		911A04B01C92EE3C00313B52 /* weChatUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = weChatUITests.m; sourceTree = "<group>"; };
 		911A04B21C92EE3C00313B52 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		911A04BE1C92EF6100313B52 /* DSTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DSTableViewController.h; sourceTree = "<group>"; };
+		911A04BF1C92EF6100313B52 /* DSTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DSTableViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +106,8 @@
 			children = (
 				911A048E1C92EE3B00313B52 /* AppDelegate.h */,
 				911A048F1C92EE3B00313B52 /* AppDelegate.m */,
+				911A04BE1C92EF6100313B52 /* DSTableViewController.h */,
+				911A04BF1C92EF6100313B52 /* DSTableViewController.m */,
 				911A04911C92EE3B00313B52 /* ViewController.h */,
 				911A04921C92EE3B00313B52 /* ViewController.m */,
 				911A04941C92EE3B00313B52 /* Main.storyboard */,
@@ -273,6 +278,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				911A04C01C92EF6100313B52 /* DSTableViewController.m in Sources */,
 				911A04931C92EE3B00313B52 /* ViewController.m in Sources */,
 				911A04901C92EE3B00313B52 /* AppDelegate.m in Sources */,
 				911A048D1C92EE3B00313B52 /* main.m in Sources */,
